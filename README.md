@@ -23,3 +23,9 @@ Directories:
 * docker/ -- Container definitions to package parts of the demo for production support as well as final deployment
 * ... various parts brought in as submodules (see above)
 * data/  -- A shared directory that is bind mounted into the component containers for them to share a storage area, such as shared database files. In the repository it contains a few preloaded data files.  Most of /data is however populated by the containers during runtime.
+
+
+Getting started
+---------------
+
+1. After cloning the repo, change to the `docker` folder and type `make`, which should start the container build.
